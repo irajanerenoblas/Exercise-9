@@ -1,9 +1,8 @@
 .box{
     text-align: center;
     border:2px solid gray;
-    margin: auto;
-    padding: 20px;
-    width: 200px;
+    margin: 30px;
+    width: 300px;
     box-sizing: content-box;
     
 }
@@ -14,12 +13,14 @@
 .box img{
     border-radius: 50%;
     border:3px solid pink;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: auto;
 }
-body{
+.container{
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
     border: solid 5px;
-    padding: 100px;
-    box-sizing: content-box;
 }
